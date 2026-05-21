@@ -13,7 +13,7 @@ Real-time greenhouse monitoring system with bidirectional hardware control. ESP3
 
 ## System Demo
 
-https://github.com/YOUR_USERNAME/Microsystems-Dash/assets/VID_20260519_194625.mp4
+https://github.com/ThebeLedwaba/Microsystems-Dash/assets/VID_20260519_194625.mp4
 
 *Watch the ESP32 sensor readings stream live to the React dashboard with real-time charts and hardware control in action.*
 
