@@ -290,11 +290,11 @@ Body:
 
 ```cpp
 // WiFi
-const char* WIFI_SSID     = "DStv_Internet_2.4G_974A03";
-const char* WIFI_PASSWORD = "8VD8555U64";
+const char* WIFI_SSID     = "Your Wifi ssid";
+const char* WIFI_PASSWORD = "Your Wifi password";
 
 // MQTT
-const char* MQTT_BROKER   = "192.168.0.177";
+const char* MQTT_BROKER   = "IP ADDRESS";
 const int   MQTT_PORT     = 1883;
 const char* TOPIC_DATA    = "greenhouse/data";
 const char* TOPIC_CONTROL = "greenhouse/control";
@@ -316,7 +316,7 @@ float thresholdHum  = 40.0;  // percent humidity
 ### Backend (`greenhouse-backend/server.js`)
 
 ```javascript
-const BROKER_URL = "ws://192.168.0.177:9001";
+const BROKER_URL = "ws://";
 const TOPIC_DATA = "greenhouse/data";
 const PORT = 3001;
 ```
@@ -324,7 +324,7 @@ const PORT = 3001;
 ### Frontend (`greenhouse-dashboard/src/components/GreenhouseDashboard.jsx`)
 
 ```javascript
-const BROKER_URL = "ws://192.168.0.177:9001";
+const BROKER_URL = "ws://";
 const API_URL = "http://localhost:3001";
 const MAX_HISTORY = 20;  // readings to keep in chart
 ```
